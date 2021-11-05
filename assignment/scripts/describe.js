@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// create a name variable and set it to dane
+// create a name variable and set it to dane as a string
 // if the name is equal to marry, console log 'hi mary'
 // otherwise log 'how do you do' to the console
-//
+//should log how do you do to console, since dane and mary are not the same
 
 //CODE
 /*
@@ -71,11 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//create a set of variables containing information about a person (isStudent, age, and zip)
-//if isstudent equals true and zip is greater than 80000, log youre a student of the west coast
-//if isstudent equals false and  age is less than 30, log what are your hobbies
-//if isstudent equals true, log welcome to prime!
-//if none of those are true, log how about the weather
+//create a set of variables containing information about a person (isStudent(true or false), age(age as a number), and zip(zip code as a number))
+//if isstudent equals true and zip is greater than 80000 log, youre a student of the west coast
+//if isstudent equals false and  age is less than 30 log, what are your hobbies
+//if isstudent equals true log, welcome to prime!
+//if none of those are true log, how about the weather
 
 //CODE
 /*
@@ -137,8 +137,9 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+//FIX - we need to reassign colorTwo to 'purple' as well
+// should have colorTwo = 'purple'
   colorOne = 'purple';
-  //FIX - we need to reassign colorTwo to 'purple' as well
 }
 */
 
@@ -151,6 +152,7 @@ let temp = 40;
 const time = 4;
 
 //FIX - below is an or statement, we need an and statement
+//should be if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -164,7 +166,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX - the console logs need to be reversed in the if else statement
+//FIX - the relational operator needs to be reversed.
+//should be if(minAge >= age)
 if(minAge <= age) {
   console.log('no entry');
 } else {
